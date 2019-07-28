@@ -1,0 +1,50 @@
+.auth-form {
+    display: flexbox;
+    width: max-content;
+    min-width: 300px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10% auto;
+    padding: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.auth-header-title, .auth-footer-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+.auth-footer-title a {
+    color: #03a9f4;
+    text-decoration: none;
+}
+
+#submit {
+    width: 100%;
+    height: 2.5rem;
+    background-color: #1779ba;
+    color: #fff;
+    font-size: 1rem;
+    border-style: solid;
+    border-color: #fff;
+}
+
+#submit:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 350ms ease;
+}
+
+#submit:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.auth-input {
+    width: 100%; 
+    width: -moz-available;   /* WebKit-based browsers will ignore this. */ 
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */ 
+    width: stretch; 
+    margin-top: 15px;
+    padding: 0.5em 10px;
+}
