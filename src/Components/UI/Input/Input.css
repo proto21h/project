@@ -1,0 +1,9 @@
+.input {
+    width: 100%; 
+    width: -moz-available;   /* WebKit-based browsers will ignore this. */ 
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */ 
+    width: stretch; 
+    margin-top:5px;
+    margin-bottom:15px;
+    padding: 0.5em 10px;
+}

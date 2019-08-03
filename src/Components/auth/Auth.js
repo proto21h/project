@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Compare from './compare/Compare';
 import "./Auth.css";
 
 export default class Auth extends Component {
@@ -70,6 +71,7 @@ export default class Auth extends Component {
                 onChange = {this.changeHandler} 
                 placeholder = "Re-Enter password"
                 />
+                <Compare value1={this.state.password1} value2={this.state.password2}/>
             </p>
             titleHeaderForm = 'Registration';
             titleLinkFrom = 'Login';
@@ -126,7 +128,7 @@ export default class Auth extends Component {
                         </label>
                     </p>
                     <button 
-                        className = "submint" 
+                        className = "submit" 
                         type = "submit" 
                         id = "submit"
                         name = "submit"

@@ -1,0 +1,21 @@
+.auth-form {
+    align-self: center;
+    width: max-content;
+    min-width: 300px;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border: 1px solid #fff;
+    margin: auto auto;
+    padding: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.auth-header-title, .auth-footer-title {
+    text-align: center;
+    font-weight: normal;
+}
+
+.link {
+    color: #03a9f4;
+    text-decoration: none;
+}
