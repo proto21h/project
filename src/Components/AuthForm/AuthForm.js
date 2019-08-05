@@ -12,8 +12,8 @@ export default class AuthForm extends Component {
             <div className="auth-form">
                 <form>
                     <h1 className="auth-header-title" >Login</h1>
-                    <Input type="text" label="Login" required="yes" />
-                    <Input type="password" label="Password" required="yes" />
+                    <Input type="text" label="Login" required="yes" text="Enter username"/>
+                    <Input type="password" label="Password" required="yes" text="Enter password"/>
                     <Button type="submit" title="Login" /> 
                     <div className="auth-footer-title">
                         <Label css="center" value="Create an account: "/> 

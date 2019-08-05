@@ -15,6 +15,7 @@ export default class Input extends React.Component {
                     name= {this.props.name} 
                     type= {this.props.type} 
                     required={(this.props.required==="yes") ? true : false}
+                    placeholder={this.props.text}
                 />
             </div>
         )
