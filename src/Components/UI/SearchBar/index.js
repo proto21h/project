@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import {} from './Search'
+import {Search} from './Search'
 
 export default class index extends Component {
     render() {
         return (
             <div>
                 <form>
-                    <input type="search" placeholder="Search..."></input>
+                    <Search type="search" placeholder="Search..." />
                 </form>
             </div>
         )

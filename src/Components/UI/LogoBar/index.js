@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Logo } from './Logo'
+import { Logo, Slogan } from './Logo'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
- 
 export default class index extends Component {
     render() {
         return (
             <Logo> 
-                <h1>
-                    <FontAwesomeIcon icon="coffee" />
-                </h1>
+                <FontAwesomeIcon icon={faCode} size="2x"/>
+                <Slogan>{this.props.text}</Slogan>
             </Logo>
         )
     }

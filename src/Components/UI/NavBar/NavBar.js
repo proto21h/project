@@ -8,6 +8,8 @@ const Wrap = styled.div`
 
 const NavBar = styled.nav`
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: ${props => props.light ? "white" : "black"};
     color: ${props => props.light ? "black" : "white"};
     width: 960px;
