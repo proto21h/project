@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
-const NavBar = styled.nav`
-    display: flex;
-    background-color: rgba(0,0,0,1);
+
+const Wrap = styled.div`
     width: 100vw;
-    padding: 1em;
+    background-color: ${props => props.light ? "white" : "black"};
 `;
 
-export default NavBar
+const NavBar = styled.nav`
+    display: flex;
+    background-color: ${props => props.light ? "white" : "black"};
+    color: ${props => props.light ? "black" : "white"};
+    width: 960px;
+    padding: .4em;
+    margin: 0 auto;
+`;
+
+export {Wrap, NavBar}
