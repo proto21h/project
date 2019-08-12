@@ -5,6 +5,7 @@ const UserPic = styled.img`
   border: solid 2px #fff;
   width:${props=>props.size || "32px"};
   height:${props=>props.size || "32px"};
+  margin-left: 1em;
 `;
 
 export default UserPic
